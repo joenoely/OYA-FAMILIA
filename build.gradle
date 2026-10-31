@@ -1,1 +1,2 @@
-plugins { id 'com.android.application' version '8.7.3' apply false }
+plugins { id 'com.android.application' }
+android { namespace 'com.oyafamilia'; compileSdk 35; defaultConfig { applicationId 'com.oyafamilia'; minSdk 23; targetSdk 35; versionCode 1; versionName '0.1' } }
